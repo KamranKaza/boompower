@@ -1,2 +1,2 @@
-# boompower
+# Boompower
 My Game BoomPower
