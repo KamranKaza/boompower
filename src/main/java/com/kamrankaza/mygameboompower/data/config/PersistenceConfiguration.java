@@ -21,8 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @PropertySource(value = { "classpath:hibernate.properties" })
 @ComponentScan(basePackages = "com.kamrankaza.myboompower.data")
-@EnableJpaRepositories(basePackages = "com.forwardline.data")
-@EnableJpaAuditing(auditorAwareRef = "auditorProvider")
+@EnableJpaRepositories(basePackages = "com.kamrankaza.myboompower.data")
 public class PersistenceConfiguration {
 
 	
